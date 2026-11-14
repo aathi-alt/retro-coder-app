@@ -1,0 +1,10 @@
+{
+  "name": "retrocoder-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static recreation of the Retrocoder portfolio",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "node --check js/main.js && node --check js/navigation.js && node --check js/animations.js && node --check js/contact.js"
+  }
+}
